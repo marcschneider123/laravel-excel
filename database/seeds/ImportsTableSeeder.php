@@ -21,6 +21,7 @@ class ImportsTableSeeder extends Seeder
 			$import->salutation = $faker->randomElement(['Herr', 'Frau', 'Firma']);
 			$import->firstname = $faker->firstName;
 			$import->lastname = $faker->lastName;
+			$import->lastWorkshopVisit = $faker->date();
 			$import->export = true;
 
 			$import->save();

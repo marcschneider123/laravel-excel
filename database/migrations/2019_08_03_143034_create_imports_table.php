@@ -19,6 +19,7 @@ class CreateImportsTable extends Migration
 			$table->string('salutation', 10)->nullable();
 			$table->string('firstname', 30)->nullable();
 			$table->string('lastname', 50)->nullable();
+			$table->date('lastWorkshopVisit')->nullable();
 			$table->boolean('export')->default(0);
 			$table->timestamps();
 		});

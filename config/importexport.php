@@ -16,6 +16,7 @@ return [
 		'countrycode' => 2,
 		'salutation' => 10,
 		'firstname' => 30,
-		'lastname' => 50
+		'lastname' => 50,
+		'lastWorkshopVisit' => 10
 	]
 ];

@@ -17,7 +17,7 @@ class Export extends DefaultValueBinder implements FromQuery, WithCustomCsvSetti
 {
 	use Exportable;
 
-	private $columns = array();
+	private $columns;
 	private $columnWidths = array();
 	private $columnNames = array();
 

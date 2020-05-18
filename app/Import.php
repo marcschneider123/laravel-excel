@@ -12,6 +12,11 @@ class Import extends Model
 		'salutation',
 		'firstname',
 		'lastname',
+		'lastWorkshopVisit',
 		'export'
+	];
+
+	protected $casts = [
+		'lastWorkshopVisit' => 'date:m/d/Y'
 	];
 }
