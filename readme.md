@@ -5,8 +5,8 @@
     * Name in
         * APP_NAME
         * APP_URL
-* composer install
-* run initial migrations & seed: php artisan migrate --seed
+* `composer install`
+* run initial migrations & seed: `php artisan migrate --seed`
 
 ## Usage
 ### Export
